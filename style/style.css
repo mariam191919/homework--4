@@ -1,0 +1,133 @@
+.bg-image{
+    position: relative;
+    
+}
+.background{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+
+.spongebob{
+    position: absolute;
+    right:0%;
+    top:15%;
+    transform: translate(0);
+    animation: spongebob 12s linear infinite 2s;
+    transition: all;
+}
+
+@keyframes spongebob{
+    0% {
+        right:0px;
+    }
+    100%{
+        right:900px;
+    }
+}
+.jellyfish{
+    position: absolute;
+    right:5px;
+    top:12%;
+    height:100px;
+    animation: jellyfish 12s linear infinite 2s;
+    transition: all;
+}
+@keyframes jellyfish{
+    0% {transform: rotate(0deg);
+    }
+    30% { transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+    0% {
+        right: 0px;
+    }
+    100%{
+        right: 1200px;
+    
+}
+}
+.jellyfish2{
+    position: absolute;
+    right:100px;
+    top:10%;
+    height:100px;
+    animation: jellyfish2 12s linear infinite 2s;
+    transition: all;
+
+}
+@keyframes jellyfish2{
+    0%{
+        transform:rotate(0deg);
+    }
+    30%{
+        transform:rotate(10deg);
+    }
+    100%{
+        transform:rotate(15deg);
+        
+    }
+    0%{
+        right:100px;
+
+    }
+    100%{
+        right:1200px;
+    }
+}
+.jellyfish3{
+    position: absolute;
+    right:200px;
+    top:5%;
+    height:80px;
+    animation: jellyfish3 12s linear infinite;
+    transition: all;
+}
+@keyframes jellyfish3{
+    0%{
+        transform:rotate(0deg);
+    }
+    30%{
+        transform:rotate(-10deg);
+    }
+    100%{
+        transform:rotate(-20deg);
+        
+    }
+    0%{
+        right:200px;
+
+    }
+    100%{
+        right:1200px;
+    }
+
+}
+.jellyfish4{
+    position: absolute;
+    right:400px;
+    top:5%;
+    height:90px;
+    animation: jellyfish4 12s linear infinite 2s;
+    transition: all;
+
+}
+@keyframes jellyfish4{
+    0% {
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform:rotate(-30deg);
+    }
+    0% {
+        right:400px;
+    }
+    100%{
+        right:1200px;
+    }
+}
